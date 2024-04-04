@@ -1,0 +1,60 @@
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 0px 10% 0px 10%;
+}
+
+.genre-filter{
+  width: 100%;
+  padding: 40px;
+  background-color: #f2f1f1;
+}
+
+.genre-filter button{
+  background-color: #d7d6d7;
+  margin: 0px 10px 0px 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.genre-filter button:hover{
+  background-color: #b3b2b3;
+}
+
+.genre-filter h2{
+  margin: 10px;
+}
+
+.movie-list{
+  border: 1px solid black;
+  width: 106.5%;
+  margin-top: 40px;
+}
+
+.movie-list table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.movie-list table thead tr{
+ background-color: #f2f1f1;
+}
+
+.movie-list table thead tr th{
+  text-align: left;
+  padding: 10px;
+}
+ 
+.movie-list table tbody tr:hover{
+  background-color: #f2f1f1;
+}
+
+.movie-list table tbody tr td{
+  padding: 10px;
+}
